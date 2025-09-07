@@ -1,0 +1,25 @@
+{
+  "name": "jeffstein-theme",
+  "displayName": "Jeffstein Theme",
+  "description": "A dark theme based on the Jeffstein's West Fallen ptyxis palette.",
+  "version": "0.0.1",
+  "publisher": "jeffstein",
+  "repository": {
+    "url": "https://github.com/BM-AI-solutions/jeffstein-theme.git"
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jeffstein",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jeffstein-color-theme.json"
+      }
+    ]
+  }
+}
+
