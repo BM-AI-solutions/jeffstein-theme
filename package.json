@@ -1,25 +1,26 @@
 {
   "name": "jeffstein-theme",
-  "displayName": "Jeffstein Theme",
-  "description": "A dark theme based on the Jeffstein's West Fallen ptyxis palette.",
-  "version": "0.0.1",
-  "publisher": "jeffstein",
-  "repository": {
-    "url": "https://github.com/BM-AI-solutions/jeffstein-theme.git"
+  "displayName": "jeffstein theme",
+  "description": "Jeffstein's color theme",
+  "version": "6.5.0",
+  "icon": "icon.png",
   "engines": {
-    "vscode": "^1.0.0"
+    "vscode": "^1.101.0"
   },
   "categories": [
     "Themes"
   ],
+  "publisher": "jeffstein",
+  "repository": {
+    "url": "https://github.com/BM-AI-solutions/jeffstein-theme.git"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "Jeffstein",
+        "label": "jeffstein-theme",
         "uiTheme": "vs-dark",
         "path": "./themes/jeffstein-color-theme.json"
       }
     ]
   }
 }
-

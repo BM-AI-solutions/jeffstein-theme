@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "West Fallen",
+  "name": "Jeffstein Theme",
   "type": "dark",
   "colors": {
     "editor.background": "#000000",
@@ -48,8 +48,6 @@
     "peekViewTitle.background": "#222222",
     "editorWidget.background": "#1a1a1a",
     "editorGutter.background": "#000000",
-
-    // Terminal Colors from westfallen.palette
     "terminal.background": "#000000",
     "terminal.foreground": "#FFFFFF",
     "terminalCursor.background": "#FFC400",
@@ -62,7 +60,7 @@
     "terminal.ansiMagenta": "#fc00b9",
     "terminal.ansiCyan": "#03c6fc",
     "terminal.ansiWhite": "#FFFFFF",
-    "terminal.ansiBrightBlack": "#555555",
+    "terminal.ansiBrightBlack": "#FFFFFF",
     "terminal.ansiBrightRed": "#FF0000",
     "terminal.ansiBrightGreen": "#EBFF00",
     "terminal.ansiBrightYellow": "#F8FF00",
@@ -73,7 +71,11 @@
   },
   "tokenColors": [
     {
-      "scope": ["comment", "punctuation.definition.comment", "string.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "string.comment"
+      ],
       "settings": {
         "foreground": "#888888"
       }
@@ -91,25 +93,38 @@
       }
     },
     {
-      "scope": ["string", "punctuation.definition.string"],
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
       "settings": {
         "foreground": "#F8FF00"
       }
     },
     {
-      "scope": ["constant.numeric", "constant.language"],
+      "scope": [
+        "constant.numeric",
+        "constant.language"
+      ],
       "settings": {
         "foreground": "#25B8FF"
       }
     },
     {
-      "scope": ["entity.name.function", "support.function"],
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
       "settings": {
         "foreground": "#fc00b9"
       }
     },
     {
-      "scope": ["entity.name.type", "entity.name.class", "support.class"],
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.class"
+      ],
       "settings": {
         "foreground": "#EBFF00",
         "fontStyle": "italic"
@@ -122,7 +137,10 @@
       }
     },
     {
-      "scope": ["entity.name.tag", "punctuation.definition.tag"],
+      "scope": [
+        "entity.name.tag",
+        "punctuation.definition.tag"
+      ],
       "settings": {
         "foreground": "#FF0000"
       }
@@ -142,4 +160,3 @@
     }
   ]
 }
-
