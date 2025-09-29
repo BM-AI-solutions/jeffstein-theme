@@ -2,7 +2,7 @@
   "name": "jeffstein-theme",
   "displayName": "jeffstein theme",
   "description": "Jeffstein's color theme",
-  "version": "6.7.0",
+  "version": "6.8.0",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.101.0"
