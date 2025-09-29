@@ -22,7 +22,7 @@
     "list.hoverBackground": "#2a2a2a",
     "list.focusBackground": "#e60000",
     "list.highlightForeground": "#00AAE0",
-    "statusBar.background": "#e6cf00",
+    "statusBar.background": "#e60000",
     "statusBar.foreground": "#FFFFFF",
     "statusBar.noFolderBackground": "#111111",
     "titleBar.activeBackground": "#111111",
@@ -98,7 +98,7 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#F8FF00"
+        "foreground": "#ff0000"
       }
     },
     {
@@ -126,7 +126,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#EBFF00",
+        "foreground": "#ff0000",
         "fontStyle": "italic"
       }
     },
@@ -154,7 +154,7 @@
     {
       "scope": "invalid",
       "settings": {
-        "foreground": "#FF0000",
+        "foreground": "#00f7ff",
         "fontStyle": "underline"
       }
     }
