@@ -89,7 +89,7 @@
         "keyword.control"
       ],
       "settings": {
-        "foreground": "#03ebfc"
+        "foreground": "#00eeff"
       }
     },
     {
@@ -107,7 +107,7 @@
         "constant.language"
       ],
       "settings": {
-        "foreground": "#25B8FF"
+        "foreground": "#15ff00"
       }
     },
     {
@@ -154,7 +154,7 @@
     {
       "scope": "invalid",
       "settings": {
-        "foreground": "#a2ff00",
+        "foreground": "#00ff2a",
         "fontStyle": "underline"
       }
     }
